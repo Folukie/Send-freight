@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Air Freight",
+        "image": "./images/air-freight.svg"
+    },
+    {
+        "id": 2,
+        "title": "Sea Freight",
+        "image": "./images/sea-freight.svg"
+    },
+    {
+        "id": 3,
+        "title": "Inland (Truck & Barge)",
+        "image": "./images/inland.svg"
+    },
+    {
+        "id": 4,
+        "title": "Customs Clearance",
+        "image": "./images/customs.svg"
+
+    }
+]

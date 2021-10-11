@@ -1,0 +1,39 @@
+.nav {
+  background: #0747a6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  & > div {
+    display: grid;
+    grid-gap: 20px;
+  }
+  &_right {
+    grid-template-columns: max-content 1fr;
+
+    & > input {
+      width: 500px;
+      background: #396bb7;
+      border: none;
+
+      &::placeholder {
+        color: #fff;
+        padding: 0 5px;
+      }
+    }
+  }
+  &_left {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .nav_right > input {
+  
+    display: none;
+}
+
+}

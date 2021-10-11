@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Export Forwarding",
+        "description": "We handle clearance and documentation."
+    },
+    {   
+        "title": "Import Customs Clearance",
+        "description": "We handle import customs and regulatory requiremnets."
+    },
+    { 
+        "title": "Cargo Insurance",
+        "description": "Protect your cargo from logistics risks up to its full value."
+    },
+    { 
+        "title": "Transport / Delivery",
+        "description": "We deliver the cargo to your door step from the ports."
+    }
+
+]

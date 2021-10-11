@@ -1,0 +1,15 @@
+.btn {
+  padding: 5px 15px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  color: #fff;
+
+  &_primary {
+    border: 2px solid #fff;
+    background-color: transparent;
+  }
+  &_success {
+    background-color: #5cc685;
+    border: 2px solid #5cc685;
+  }
+}
